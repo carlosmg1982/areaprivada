@@ -1,0 +1,25 @@
+span.nota {
+	font-weight: bold;
+}
+.retraso {
+	color: #E13300 !important;
+}
+table.calificaciones {
+	width:100%;
+	border-collapse: collapse;
+	margin: 20px 5px;
+}
+table.calificaciones, table.calificaciones td, table.calificaciones th {
+	border: 1px solid black;
+}
+table.calificaciones td, table.calificaciones th {
+	padding: 5px;
+}
+table.calificaciones td {
+	width: 50%;
+	word-break: break-all;
+}
+table.calificaciones th {
+	font-weight: bold;
+	background: #DDD;
+}
