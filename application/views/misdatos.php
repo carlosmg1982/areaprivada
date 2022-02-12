@@ -12,20 +12,20 @@
 						<? } else { ?>
 						<p>
 							Puedes acceder a tu plataforma Omeka personalizada a través de la siguiente dirección:
-							<a href="http://cursodigitalizacionfuned.com/FINALIZADO<?=$usuario['dni']?>/" target="_blank">http://cursodigitalizacionfuned.com//FINALIZADO<?=$usuario['dni']?>/</a>.
+							<a href="https://cursodigitalizacionfuned.com/FINALIZADO<?=$usuario['dni']?>/" target="_blank">https://cursodigitalizacionfuned.com//FINALIZADO<?=$usuario['dni']?>/</a>.
 						</p>
 						<? } ?>
 					<? } else { ?>
 					<p>
 						Debes acceder a la siguiente dirección para iniciar la práctica:
-						<a href="http://cursodigitalizacionfuned.com/<?=strtoupper($usuario['grupo']).$usuario['dni']?>/" target="_blank">http://cursodigitalizacionfuned.com/<?=strtoupper($usuario['grupo']).$usuario['dni']?>/</a>.
+						<a href="https://cursodigitalizacionfuned.com/<?=strtoupper($usuario['grupo']).$usuario['dni']?>/" target="_blank">https://cursodigitalizacionfuned.com/<?=strtoupper($usuario['grupo']).$usuario['dni']?>/</a>.
 					</p>
 					<? } ?>
 					<? if(!$usuario['finalizado']) { ?>
 					<p>Una vez finalizado el proceso de instalación de la herramienta Omeka, dispondremos de dos accesos diferenciados:</p>
 					<ul>
-						<li>Front-end o área pública para los visitantes del sitio Web: <a href="http://cursodigitalizacionfuned.com/<?=strtoupper($usuario['grupo']).$usuario['dni']?>/" target="_blank">http://cursodigitalizacionfuned.com/<?=strtoupper($usuario['grupo']).$usuario['dni']?>/</a>.</li>
-						<li>Back-end o área privada (el Panel de Control) desde donde se gestiona la plataforma y sus contenidos, y para la que utilizaremos el usuario y contraseña especificados durante el proceso de instalación: <a href="http://cursodigitalizacionfuned.com/<?=strtoupper($usuario['grupo']).$usuario['dni']?>/admin/" target="_blank">http://cursodigitalizacionfuned.com/<?=strtoupper($usuario['grupo']).$usuario['dni']?>/admin/</a>.</li>
+						<li>Front-end o área pública para los visitantes del sitio Web: <a href="https://cursodigitalizacionfuned.com/<?=strtoupper($usuario['grupo']).$usuario['dni']?>/" target="_blank">https://cursodigitalizacionfuned.com/<?=strtoupper($usuario['grupo']).$usuario['dni']?>/</a>.</li>
+						<li>Back-end o área privada (el Panel de Control) desde donde se gestiona la plataforma y sus contenidos, y para la que utilizaremos el usuario y contraseña especificados durante el proceso de instalación: <a href="https://cursodigitalizacionfuned.com/<?=strtoupper($usuario['grupo']).$usuario['dni']?>/admin/" target="_blank">https://cursodigitalizacionfuned.com/<?=strtoupper($usuario['grupo']).$usuario['dni']?>/admin/</a>.</li>
 					</ul>
 					<? } ?>
                 </div>
